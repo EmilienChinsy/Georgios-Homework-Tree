@@ -41,7 +41,6 @@ int main()
                     retrieveDish(allDishes);  // Search dish by name
                     break;
                 case 3:
-                    emptyBSTHealth();
                     for (int i = 0; i < allDishes.size(); i++){
                         insertBSTHealth(allDishes[i]);
                     }
@@ -49,7 +48,6 @@ int main()
                     BSTHealth();
                     break;
                 case 4:
-                    emptyBSTRating();
                     for (int i = 0; i < allDishes.size(); i++){
                         insertBSTRating(allDishes[i]);
                     }

@@ -132,9 +132,11 @@ void balanceBST(Node*& root)
 void BSTHealth() {
     balanceBST(healthTree);
     inOrderTraversal(healthTree);
+    emptyBSTHealth();
 }
 
 void BSTRating() {
     balanceBST(ratingTree);
     inOrderTraversal(ratingTree);
+    emptyBSTRating();
 }
